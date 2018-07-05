@@ -1,0 +1,299 @@
+#AREADATA
+Name Company HQ~
+Builders Mendanbar~
+VNUMs 100 199
+Credits Company HQ Credits~
+Security 9
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#101
+bottle ketel vodka~
+a bottle of ketel 1 vodka~
+A long-necked bottle is here, lying on the ground.~
+glass~
+drink 0 AO
+50 50 'vodka' 0 0
+101 0 0 P
+#110
+board note~
+a note for Sarasvati~
+A scribbled note is here for Sarasvati.~
+unknown~
+map 0 0
+0 0 0 0 0
+109 0 0 P
+E
+note~
+Sarasvati!!!!!  Lilith!!  Lil' Lilith!  I plead with the, answer!!  Where
+are you why are you where?  Contact me soon!  Soon, Sooner, Soonest!  
+ 
+Puweese?!
+Danke
+-Mendy Bendy
+~
+#0
+
+
+
+#ROOMS
+#100
+The Company Meeting Room~
+{wThis is the meeting room of the most powerful beings in the universe -
+the board members of the Company.  A circular table sits in the middle of
+the room, lit by a huge overhead light system.  There are many comfortable
+swivel chairs around the table.  The Company Board Room is to the north, and
+the Terraforming Division is to the south.  For some reason you sense that
+you should not break the intense silence.  {x 
+~
+0 12 11
+D0
+~
+~
+0 0 102
+D3
+~
+~
+0 0 101
+D4
+~
+~
+0 0 107
+S
+#101
+The Planet of the Gods Airlock~
+This room is the entryway into the Planet of the Gods.  Posted all over
+the wall in lots of different colors are signs that say things like: NO
+SHOUTING!  Or QUIET PLEASE!  
+~
+0 1032 11
+D1
+~
+~
+0 0 100
+S
+#102
+The Company Board Room~
+{wThe main hangout of the players, the Company board room is the place to
+be to exchange information about various aspects of this world.  To express
+your opinions to Mother...  Simply post on the board present in this room.{x
+~
+0 1032 11
+D0
+~
+~
+0 0 104
+D2
+~
+~
+0 0 100
+D3
+~
+~
+0 0 103
+S
+#103
+The E-mail Database~
+{wThis newly built post office appears to have been built slightly more
+user friendly.  Should you have problems with your Mail, you should alert
+the staff as fast as possable, so they can assist you with your problem.  {x
+~
+0 1032 11
+D1
+~
+~
+0 0 102
+S
+#104
+Welcome to the Player Relations Dept.~
+{wYou step into the Player Relations hallway and notice that it is
+designed to please the players.  The color scheme is in relaxing shades of
+blue, and soft music is heard from an unknown source.  More hallway lies to
+the north, and there are offices on the left and right.  {x 
+~
+0 1032 11
+D0
+~
+~
+0 0 105
+D2
+~
+~
+0 0 102
+S
+#105
+PR Hallway~
+{wYou step into the Player Relations hallway and notice that it is
+designed to please the players.  The color scheme is in relaxing shades of
+blue, and soft music is heard from an unknown source.  More hallway lies to
+the north, and there are offices on the left and right.  {x 
+~
+0 1032 11
+D0
+~
+~
+0 0 106
+D2
+~
+~
+0 0 104
+S
+#106
+The PR Hallway~
+{wYou enter into the {BPlayer Relations{w hallway, where the PR staff reside.
+The floor is a thin {Bcarpet that feels{w comfortable on your feet.  The hallway is
+painted in {Bmellow shades of blue,{w obviously designed to give a relaxed feeling.{x
+~
+0 1032 11
+D2
+~
+~
+0 0 105
+S
+#107
+The Admin Tower~
+This is a long stairway that goes up into the tower of the admin's.  This
+room resonates with raw power that seems to engulf everything in it.  There
+are rooms that are big and small large and wide.  However the power that
+rings throughout this tower is stunning and the sounds of chimes ring in
+your ear.  
+~
+0 1032 11
+D1
+~
+~
+0 0 109
+D4
+~
+~
+0 0 108
+D5
+~
+~
+0 0 100
+S
+#108
+The Admin Tower Level 2~
+This is the second level of the Admin's Tower in which gives a
+breathtaking view of the universe.  There are numerous windows here as the
+tower is illuminated with light from distant suns.  The ground beneath seems
+to be transparent as you can almost make out the carpet downstairs.  The
+patterns on the walls are stunning as they seem to only make sense to a
+immortal.  
+{x  To the east, the sounds of gently running water take over your senses.
+~
+0 1032 11
+D1
+~
+~
+6 0 111
+D5
+~
+~
+0 0 107
+S
+#109
+Software Division~
+This is a moderately lit room, filled with holograms depicting various
+creations which came from the Software Division.  This is where most
+Terraformers come when they are in need of new or enhanced software.  To the
+west is the Company Meeting Room, and to the north is a dimly lit room.  
+~
+0 8 11
+D1
+You see Mendanbar's Sanctuary.
+~
+~
+1 0 110
+D3
+~
+~
+0 0 107
+S
+#110
+{GM{yendanbar{G's S{yanctuar{Gy{x~
+You walk into a small, partly lit room.  Most of the light is
+concentrated on the computer systems crammed into the open-door closet. 
+Sitting on top of a dark brown polished desk is an old Gateway Vivitron
+monitor, and next to that, a 486DX 'Terminator' 33mhz computer, the heart of
+Rogue MUD development.  CD-ROMs, ZIP disks, and empty Dr Pepper bottles
+litter the area, and, along with the dust bunnies, nearly obscure an old DOT
+Matrix T1000 printer.  Anime pictures clutter the walls as every inch is
+covered with something.  
+~
+0 8 11
+D3
+~
+~
+1 0 109
+S
+#111
+{BS{ca{wrasvat{ci{B's R{ci{wv{ce{Br{x~
+This heavenly river is quite magickal, for even the smallest dwarf floats
+easily upon the gentle currents.  Also, you notice that you aren't getting
+at all wet, which speaks again to the inherently magickal nature of this
+location.  The river itself is amazing: as you glance down into the waters,
+every aspect of the world below can be seen.  
+~
+0 295948 6
+D3
+~
+~
+6 0 108
+I sara.gif~
+S
+#112
+Sara's Test Room~
+{B                 __{Y      \|/{x
+{B               ,%%%%{Y     -O-{x
+{B              .%%%{W_/  _;{Y /|\{x
+{B              %%{W/(___/{x
+{B              %%{W||{M/){x
+{B            ,%%%{M){W\{M({x
+{B            %%%{M({W  \{x
+{B            ,%%{M \ {W;{x
+{B             %%{M | |{x
+{B              % {M| |{x
+{M                / |{x
+{M               /__|{x
+ 
+~
+0 0 11
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 108 1 2
+D 0 109 1 2
+D 0 110 3 2
+D 0 111 3 2
+M 0 1 1 110 1
+G 0 28 0
+O 0 110 0 111
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

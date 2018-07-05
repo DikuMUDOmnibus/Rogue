@@ -1,0 +1,735 @@
+#AREADATA
+Name Newbie School~
+Builders Mendanbar~
+VNUMs 200 299
+Credits Newbie Zone~
+Security 5
+End
+
+
+
+#MOBILES
+#200
+instructor processing~
+the instructor~
+The processing instructor is here, preaching the basics.
+~
+You see a grizly old veteran standing before you.  Under his thick and
+greyed beard you see the scars of battle.  His massive arms and chest
+intimidate you.  However he is an adept trainer, type: TRAIN 
+~
+human~
+ABGJ DFZ 1000 0
+101 0 100d100+100 0d0+0 0d0+0 none
+5 5 5 5
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+M GREET 200 100~
+#201
+clerk~
+the clerk~
+A registration clerk is here, waiting to assist you.
+~
+~
+human~
+ABGK DFZ 1000 0
+101 0 100d100+100 0d0+0 0d0+0 none
+10 10 10 10
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+M GREET 201 100~
+#202
+knight templar~
+the knight templar~
+A knight templar is guarding the entrance.
+~
+He is a specially trained warrior belonging to the military order of the
+Faith.  His duty is to protect the faithful from persecution and infidel
+attacks and his religious devotion combined with his superior skill makes
+him a deadly opponent.  
+~
+human~
+ABQT DJ 800 0
+30 5 1d1+999 1d1+499 5d8+10 divine
+-10 -10 -10 -10
+DEIK AB CD 0
+stand stand male 2000
+AHMV ABCDEFGHIJK medium unknown
+#203
+sorcerer~
+the sorcerer~
+A sorcerer is guarding the entrance.
+~
+He is an experienced mage who has specialized in the field of Combat
+Magic.  He is here to guard the Mage's Guild and his superior knowledge of
+offensive as well as defensive spells make him a deadly opponent.  
+~
+elf~
+ABRT D 800 0
+30 5 1d1+999 1d1+499 10d4+10 magic
+-10 -10 -10 -10
+AEG AB BCD Z
+stand stand male 2000
+AHMV ABCDEFGHIJK medium unknown
+F aff J
+#0
+
+
+
+#OBJECTS
+#200
+wooden mace~
+a wooden mace~
+Someone has discarded a small wooden mace here.~
+wood~
+weapon 0 AN
+mace 5 4 pound 0
+1 60 250 P
+A
+19 3
+A
+18 3
+E
+mace~
+You see a mace of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#201
+flint dagger~
+a flint dagger~
+A dagger fashioned from flint lies here.~
+stone~
+weapon 0 AN
+dagger 5 4 pierce 0
+0 10 210 P
+A
+19 3
+A
+18 3
+E
+dagger~
+You see a dagger of decent but cheap craftsmanship.  Imprinted on the side is:
+
+Property of Rogue MUD.
+~
+#202
+sword wooden~
+a wooden sword~
+A sword made of sturdy wood lies here.~
+wood~
+weapon 0 AN
+sword 5 4 slash 0
+1 30 360 P
+A
+19 3
+A
+18 3
+E
+sword~
+You see a sword of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#203
+linen tunic~
+a linen tunic~
+A tunic made of linen lies here.~
+linen~
+armor 0 AD
+AB AB AB 0 0
+0 20 144 P
+E
+tunic~
+This tunic is made from durable, strong linen.
+~
+#204
+wooden shield~
+a wooden shield~
+You see a wooden shield has been left here.~
+wood~
+armor 0 AJ
+B A B 0 0
+0 30 108 P
+E
+shield~
+You see a shield of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#205
+silver chain~
+a silver chain~
+A silver chain has been dropped here.~
+silver~
+armor 0 AC
+A A A 0 A
+0 40 72 P
+E
+chain~
+A chain of decent metalwork is here.
+~
+#206
+leather cap~
+a leather cap~
+A cap made of leather lies here.~
+leather~
+armor 0 AE
+A A A 0 0
+0 30 72 P
+E
+cap~
+You see a cap of decent but cheap leatherworking.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#207
+leather pants~
+a pair of leather pants~
+A pair of leather pants have been left here.~
+leather~
+armor 0 AF
+A A A 0 0
+0 30 72 P
+E
+pants~
+You see some decently stitched leather pants.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#208
+riding boots leather~
+a pair of leather riding boots~
+A pair of leather boots are here.~
+leather~
+armor 0 AG
+A A A 0 0
+0 30 72 P
+E
+boots~
+You see boots of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#209
+leather gloves thin~
+a pair of thin leather gloves~
+A pair of gloves have been discarded here.~
+leather~
+armor 0 AH
+A A A 0 0
+0 10 72 P
+E
+gloves~
+You see gloves of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#210
+leather sleeves~
+a pair of leather sleeves~
+You see a pair of leather sleeves lying here.~
+leather~
+armor 0 AI
+A A A 0 0
+0 20 72 P
+E
+sleeves~
+You see sleeves of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#211
+oiled-leather leather cape~
+an oiled-leather cape~
+An oiled leather cape lies here.~
+leather~
+armor 0 AK
+A A A 0 0
+0 20 72 P
+E
+cape~
+This leather cape has been heavily oiled to keep out the wind and rain.
+~
+#212
+leather belt~
+a leather belt~
+You notice a leather belt lying here.~
+leather~
+armor 0 AL
+A A A 0 0
+0 10 72 P
+E
+belt~
+You see a belt of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#213
+bronze bracer~
+a bronze bracer~
+A bronze bracer catches the light.~
+bronze~
+armor 0 AM
+0 A A 0 0
+0 10 48 P
+E
+bracer~
+You see a bracer of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#214
+map ashara city~
+a city map~
+A city map of Ashara lies here.~
+paper~
+map 0 AO
+0 0 0 0 0
+0 1 100 P
+E
+map~
+What, you want a picture of a world that isn't even built yet?
+ 
+Have a little patience!
+~
+#215
+whistle~
+a police whistle~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#216
+oil-lamp lamp bronze~
+a bronze oil-lamp~
+A bronze oil-lamp is here.~
+bronze~
+light 0 A
+0 0 DGH 0 0
+0 20 380 P
+A
+20 -1
+A
+17 -1
+E
+lamp~
+Just type 'wear lamp' to light and use this oil-lamp!
+~
+#217
+wooden spear~
+a wooden spear~
+You see a rather sharp wooden spear here.~
+wood~
+weapon 0 AN
+staff 5 4 thrust 0
+1 50 111 P
+A
+19 3
+A
+18 3
+E
+spear~
+You see a spear of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#218
+wooden staff~
+a wooden staff~
+You see a wooden staff here.~
+wood~
+weapon 0 AN
+staff 5 4 pound F
+1 40 290 P
+A
+19 3
+A
+18 3
+E
+staff~
+You see a staff of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#219
+flint axe~
+a flint axe~
+An axe made from flint has been dropped here.~
+stone~
+weapon 0 AN
+axe 5 4 chop 0
+1 50 350 P
+A
+19 3
+A
+18 3
+E
+axe~
+You see an axe of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#220
+wooden flail~
+a wooden flail~
+You see a wooden flail lying here.~
+wood~
+weapon 0 AN
+flail 5 4 crush 0
+1 50 310 P
+A
+19 3
+A
+18 3
+E
+flail~
+You see a flail of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#221
+leather whip braided~
+a braided leather whip~
+You see a whip that has been braided together out of leather.~
+leather~
+weapon 0 AN
+whip 5 4 whip 0
+0 20 330 P
+A
+19 3
+A
+18 3
+E
+whip~
+You see a whip of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#222
+glaive wooden~
+a wooden glaive~
+A wooden glaive has been left here.~
+wood~
+weapon 0 AN
+polearm 5 4 slash F
+1 80 183 P
+A
+19 3
+A
+18 3
+E
+glaive~
+You see a glaive of decent but cheap craftsmanship.  Imprinted on the side is:
+ 
+Property of Rogue MUD.
+~
+#223
+road map sign~
+a road map~
+A wooden road map is here, designating directions to take. 'LOOK SIGN'~
+wood~
+map 0 0
+0 0 0 0 0
+0 0 0 P
+E
+map~
+NORTH  -  Grand Central Road
+EAST   -  Initial Processing
+WEST   -  Skills Assessment
+~
+E
+sign~
+NORTH  -  Grand Central Road
+EAST   -  Initial Processing
+WEST   -  Skills Assessment
+~
+#224
+priests handbook~
+a priests handbook~
+Meltdrop item this shouldn't be used~
+leather~
+map GU AO
+0 0 0 0 0
+0 1 0 P
+E
+handbook~
+The cleric class is similar to certain religious orders of knighthood in
+the Middle Ages: the Teutonic Knights, the Knights Templar, and Hospitalers.
+These orders combined military and religious training with a code of
+protection and service.  Members were trained as knights and devoted
+themselves to the service of the church.  These orders were frequently found
+on the outer edges of the wilderness or in wartorn lands.  Clerics are
+sturdy soldiers, although their selection of weapons is limited.  They can
+wear any type of armor and use any shield.  Standard clerics, being
+reluctant to shed blood or spread violence, are allowed to use only blunt,
+bludgeoning weapons.  They can use a fair number of magical items including
+priest scrolls, most ptions and rings, some wands and rods, staves, armor,
+shields, and magical versions of any weapons allowed by their order.  Spells
+are the main tools of the cleric, however, helping him to serve, fortify,
+protect, and revitalize those under his care.  He has a wide variety of
+spells to choose from, suitable to many different purposes and needs.  The
+cleric receives his spells as insight directly from his deity, as a sign of
+and reward for his faith, so he must take care not to abuse his power lest
+it be taken away as punishment.  Clerics are usually the healers of any
+group.  See also "spells", "religions" (ie, read spells) 
+~
+E
+spells~
+The spells of a priest, while sometimes having powers similar to those of
+a wizard, are quite different in their overall tone.  The priest's role,
+more often than not, is as defender and guid for others.  Thus, the majority
+of his spells work to aid others or provide some service to the community in
+which he lives.  Few of his spells are truly offensive, but man can be used
+cleverly to protect or defend.  Like the wizard, the priest's level
+determines how many spells he gains.  Both wizards and priests use the same
+rules for casting spells.  To cast a spell, the character must first have
+teh spell, if not, the spell cannot be cast.  The caster must be able to
+speak, (not under the effects of a silence spell or gagged) and have both
+arms free.  (Note that special conditions can modify these.)  If the spell
+is targeted on a person, place, or thing the caster must be able to see the
+target.  It is not enough to cast a spell 150 feet ahead into the darkness;
+the caster must be able to see the point of contact and the intervening
+distance.  Also, the character must have the appropriate amount of MANA
+required to cast the spell.  You can keep casting spells until your level of
+magic endurance (MANA) is depleted, at which time you need to rest in order
+to regain your magic casting stamina, mana.  Also, some spells require you
+to have a spell component, these often rare items are imbued with magical
+energy upon casting of the spell and often destroyed after the spell is
+cast.  To use components, you must be holding it, then cast the spell.  
+~
+#225
+shelf book bookshelf~
+a book shelf~
+A large oak book shelf is here, displaying it's contents. 'LOOK IN SHELF'~
+oak~
+container G 0
+5 0 0 5 5
+0 0 0 P
+#226
+fountain marble~
+a fountain~
+A small marble fountain gurgles water forth here.~
+marble~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 P
+#227
+book handbook wizards~
+a wizards handbook~
+A leather bound book has been left here.~
+leather~
+map GU AO
+0 0 0 0 0
+0 1 0 P
+E
+handbook~
+The wizard group encompasses all spellcasters working in the various
+fields of magic- both those who specialize in specific schools of magic and
+those who study a broad range of magical theories.  Spending their lives in
+pursuit of arcane wisdom, wizards have little time for physical endeavors. 
+They tend to be poor fighters with little knowledge of weaponry.  However,
+they command powerful and dangerous energies with a few simple gestures,
+rare components, and mystical words.  Spells are the tools, weapons, and
+armor of the wizard.  He is weak in a toe-to-toe fight, but when prepared he
+can strike down his foes at a distance, vanish in an instant, become a
+wholly different creature, or even invade the mind of an anemy and take
+control of his thoughts and actions.  Wizards cannot wear any armor, for
+several reasons.  Firstly, most spells require the complicated gestures and
+odd posurings by the caster and armor restricts the wearer's ability to do
+these properly.  There are even unfounded theories that claim the materials
+in most armors disrupt the delicate fabric of a spell as it gathers energy;
+the two cannot exist side by side in harmony.  Wizards are also resctricted
+to the weapons they use, being able to wield only small weapons such as
+daggers, darts, or a staff.  
+See also: SPELLS
+~
+E
+spells~
+You can't seem to make out the language this is written in.
+~
+#0
+
+
+
+#ROOMS
+#200
+Welcome to the Training Center~
+You stand under a large archyway leading into the training center. 
+Excitement and bustle are in the air, for this is were veterans and new
+volunteers muster to begin training or to help others train in combat. 
+Continue to the NORTH if you wish to begin training.  
+~
+0 1036 1
+D0
+~
+~
+0 0 201
+S
+#201
+Grand Central Road~
+Walking down this road you see to either side of you the beginings of a
+small city made of tents, taverns, and street markets.  The road extends
+clear as far as you can see and branches off in several directions.  
+A large sign points to the many directions you have to choose from.
+~
+0 132096 1
+D0
+~
+~
+0 0 204
+D1
+~
+~
+0 0 202
+D2
+~
+~
+0 0 200
+D3
+~
+~
+0 0 203
+S
+#202
+Initial Processing Tent~
+Welcome to the processing tent.  Here you will learn a few basics of the
+world.  Please listen carefully and pay attention to what the instructor has
+to say.  Otherwise you might have trouble later on.  
+~
+0 1032 11
+D3
+~
+~
+0 0 201
+S
+#203
+Skills Assessment Tent~
+You stand in the early skills tent were a few of your skills will be
+refined just enough to get you started.  The setting reminds you of a circus
+as the instructors roam around their students correcting any mistakes they
+make.  One of the clerks at a near by wood table looks up and notices you.  
+~
+0 1032 11
+D1
+~
+~
+0 0 201
+S
+#204
+Grand Central Road~
+You are in the middle of the huge road known as Grand Central.  This is
+the part of the training area that focuses on the more mystical aspects of
+the world, Magic.  The clerics temple lies to the east, and the mages tower
+to the west.  The grand central continues north.  
+~
+0 132096 1
+D0
+~
+~
+9 0 207
+D1
+~
+~
+0 0 205
+D2
+~
+~
+0 0 201
+D3
+~
+~
+0 0 206
+S
+#205
+Cleric's Temple~
+The entrance hall is a small modest room, reflecting the true nature of
+the Clerics.  In the middle of the room a large book shelf is pressed
+against the wall.  A small sign reads, Take a handbook, may it guide you.  
+~
+0 1032 11
+D3
+~
+~
+0 0 204
+S
+#206
+Mage's Laboratory~
+This is the Magical Experiments Laboratory.  Dark smoke-stained stones
+arch over numerous huge oaken tables, most of these cluttered with strange-
+looking pipes and flasks.  The floor is covered with half-erased pentagrams
+and even weirder symbols, and a blackboard in a dark corner has only been
+partially cleaned, some painful-looking letters faintly visible.  
+~
+0 1032 11
+D1
+~
+~
+0 0 204
+S
+#207
+Grand Central Road~
+~
+0 1024 1
+D2
+~
+~
+9 0 204
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.  
+~
+sewer~
+3 0 208
+S
+#208
+Inside the Sewer Junction~
+~
+0 0 11
+S
+#0
+
+
+
+#SPECIALS
+M 203 spec_cast_mage
+S
+
+
+
+#RESETS
+D 0 207 5 1
+O 0 223 0 201
+M 0 200 1 202 1
+M 0 201 1 203 1
+O 0 226 0 204
+O 0 225 0 205
+P 0 224 5 225 5
+M 0 202 1 205 1
+O 0 225 0 206
+P 0 227 5 225 5
+M 0 203 1 206 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#200
+say {xHey! Welcome to training. I'm here to {yTRAIN{x you while your here.
+wink $n
+~
+#201
+say Hello, may i help you? Do you need to {yPRACTICE{x?
+smile $n
+~
+#0
+
+#$

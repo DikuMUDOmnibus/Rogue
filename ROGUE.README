@@ -1,0 +1,101 @@
+/***************************************************************************\
+[*]    ___    ____   ____   __   __  ____ [*]   ROGUE: ROM With Attitude  [*]
+[*]   /#/ )  /#/  ) /#/  ) /#/  /#/ /#/   [*]    All rights reserved      [*]
+[*]  /#/ <  /#/  / /#/ _  /#/  /#/ /#/--  [*]   Copyright(C) 2000-2001    [*]
+[*] /#/   \(#(__/ (#(__/ (#(__/#/ (#(___  [*] Kenneth Conley (Mendanbar)  [*]
+[*]  Expression of Digital Creativity..   [*]  scmud@mad.scientist.com    [*]
+[-]---------------------------------------+-+-----------------------------[-]
+[*] This MUD based on...  ROGUE Version 2.1 Alpha                         [*]
+[*] Original DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen, Michael [*]
+[*] Seifert, and Sebastian Hammer. Original MERC 2.1 code by Hatchet,     [*]
+[*] Furey, and Kahn. Original ROM 2.4 copyright 1993-1998 by Russ Taylor. [*]
+[*] From: rogue.dyn.dhs.org:3033                                          [*]
+\***************************************************************************/
+
+// -Changes, addins, etc made by Mendanbar
+ 1) Removed "Mota" from code, who is this Mota anyway?
+ 2) New-New do_who, lets go CircleMUD style.
+	Replaced Immortal(or Wizard)/Mortal with Staff/Player.
+	Leaves more room for expansion, doesn't limit it to an oldstyle
+	D&D setting. Also new Staff Levels from Trainee to Coder.
+ 3) Once reaching level 101 a player becomes a HERO and can progress into
+	hero levels. There is no limit to hero_level. ExpTNL is Doubled.
+ 4) AutoAll inspired by a patch i found once but don't have anymore.
+ 5) GEdit (Clan Edit), lets you edit clans online!
+ 6) "Unlinked" Add Unlinked to the builder's list to prevent gates.
+ 7) New Do-Exits, ported from SCMud.
+ 8) Slight change in note format.
+ 9) OLC Copy Add-On
+10) Damage/Battle Prompt %b - Lets you know how far you have to go.
+11) New do_sockets, more informative easier to read.
+12) Full pueblo implemtation see PUEBLO.README
+13) Change Imotd/Motd only one (i)motd will display to the player.
+14) Do_display - preset prompts for easy prompt setting.
+15) Roomflags (Holylight) changed to include more information.
+16) Wizi/Incog shows in prompt along with AFK now.
+17) New Wearflags - Face, Back, Eyes, Ears, Ankles
+18) Nolose eq, not put into corpse stays on character.
+19) Killed mapper bug, "map 50" caused a crash.
+20) Added MAX_HERO_LEVEL 999 to bite a bug.
+21) Hero_level exp changed back to normal gain of exp for sake of simplicity.
+22) Lock/Unlock immortals don't need a key anymore to lock/unlock doors.
+23) Set loadroom - allows you to change the room a character loads in/recalls.
+24) Staff CMDs basic structure layed in, not implemented.
+25) Restore messages "rmessage" allows staff with restore to send customised
+	restoring message "You are restored by Mendanbar's magic staff." instead
+	of "You have been restored by Mendanbar" or "Mendanbar restores you".
+26) Skill table regenerated to a 101 player level structure - THANK THE GODS!
+27) Cleaned out most of the reboo, shutdow, murde commands - don't need them.
+28) Entering a room produces "Mendanbar has entered from the east." now.
+29) Hidden rooms/doors added, Mapper still maps the room maybe i'll fix later.
+	Take the hint from closed/locked doors change it for hidden.
+30) Race defined loadrooms, defined in merc.h, HUMAN_STARTROOM.
+	Allows different racial towns for players to start at.
+31) ??
+
+// -Credits for misc patches and addons.
+ 1) OLC ver1.7 Added (Credit goes to Ivan Toledo).
+ 2) Lope's Colour ver1.2 Added, Modified Slightly.
+ 3) HEdit for OLC by Kermit (rom.are, olc.hlp, group.are put into help.are)
+ 4) Copyover by Erwin S. Andreasen, thank you for the ROM patch ;)
+ 5) AUTODAMAGE by Sean Cohmer, I had to modify it however (buggy).
+ 6) Drunken Speach - Maniac
+ 7) AutoMap taken from Ack! codebase - ??
+ 8) Pload/Punload - ??
+
+------
+This code was writen to squelch a lot of boredom and to help me think.
+I'm not releasing the code as an official release unless i really get into
+it in later versions. This version is 1.1 Beta. I can't help it if there
+are bugs. To my knowledge there aren't any. But alas, if that was only
+true. Code compiled on a Linux RedHat 6.0? machine using standard gcc.
+It should be ready to build just go to the src directory and type make.
+If you encounter problems you can email me (scmud@mad.scientist.com) or
+log onto my mud scmud.dhs.org:3030 and ask for Kerrigan.
+The startup file in ../area is bind to port 3033, you may want to change
+this, "set port = ????". Type ./startup & after compiling the src and
+you should be ready to rock.
+
+Area files from stock ROM have been removed except for Limbo(Company HQ)
+and the OBJ files for the newbie school. I was lazy and didn't feal like
+making new eq or removing the outfit command.
+
+Spell levels stop at 60, i did not take the time to redefine the level
+per class, you would most definatly do this yourself sooner or later.
+Maybe in a later version I actually will have them redefined (const.c)
+
+MAX_LEVEL is 110 which is the Coder lvl, sorry for those odd muds
+that have non-coders running them. But no good mud i've ever been to
+had a pet coder. ;)
+
+If you are not familiar with ROM or many other code bases, to get your
+special "immortal" character first log onto the mud, create a char, then
+save, log out, go into ../player and edit your "pfile" change Levl 1 into
+Levl 110. Save and log back into the mud. Happy Mudding!
+
+POSSIBLE TODO:
+	* GetRelations. ENEMY, FRIEND, NEUTRAL.
+	* More exact D&D style Skill/Stat/Spell engine.
+	* More skill/spells - Speaking of skills!
+	* Capiccino Machine - Nothing should be without one.
+	* More to come!

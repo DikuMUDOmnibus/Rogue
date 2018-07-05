@@ -1,0 +1,41 @@
+Pueblo Readme for ROGUE 1.2b - Monday, January 24, 2000
+
+Ok, this could get tricky.
+
+First in order to even bother with this you need the mud client,
+http://www.chaco.com/
+Should take you there, and you can download the *.exe file.
+
+After installing the client connect to the mud by first,
+clicking on "Edit your personal List" then "Add" and fill it out. Save,
+then click on the link to connect to the mud.
+
+You will be greeted with "This world is Pueblo 1.10 enhanced.",
+this is the trigger to activate Pueblo, the mud will detect pueblo
+and autoset you for color as well.
+
+You can add images to rooms by entering room edit (redit), then typing
+"image <filename>", filename should be a jpg/gif formated file that's in
+the directory defined by PUEBLO_DIR in merc.h. "image none" removes the img.
+PUEBLO_DIR should be something like "http://.../pueblo/", in your web
+server create a directory named "pueblo" and store your img/sounds in
+there for easiest access.
+
+New commands for music: pmusic, pstop, volume.
+Pmusic allows you to choose a *.mid file to listen to.
+	(Probably works with *.wav as well - Untested)
+Pstop allows you to stop the infinate loop of pmusic or anythign else for
+that matter.
+Volume, allows each person to setup their volume. Stored in pfiles.
+
+In order to add more fiels to pmusic, edit act_comm.c and look
+for the array that has "nd.mid" Just copy it and voila!
+--==-==-==-==-==-==--
+#define PUEBLO_DIR 	""
+  - http url were sounds/images are stored.
+
+#define PUEBLO_START	""
+  - *.(mid/wav) file used during "Welcome to ROGUE" comm.c (optional)
+
+#define PUEBLO_S_IMG	""
+  - *.(jpg/gif) file used during "Welcome to ROGUE" (optional)

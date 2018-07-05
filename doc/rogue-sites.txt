@@ -1,0 +1,21 @@
+ROGUE Release 2.1
+
+Mendanbar	scmud@mad.scientist.com
+Sarasvati	
+
+
+
+=== Rogue-Based MUD Sites
+
+The following muds are based on Rogue code.  The implementors of these muds
+add their own changes and features, so don't expect all these muds to look
+alike.  Most of them look VERY different!
+
+If you would like to be added to (or removed from) this list, just e-mail
+Mendanbar.
+
+Rogue 1.1:
+	Nobody Liked This Version, Sorry.
+
+Rogue 2.1:
+	ROGUE MUD           rogue.dyn.dhs.org		3033

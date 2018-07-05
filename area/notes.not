@@ -1,0 +1,67 @@
+Sender  Mendanbar~
+Date    Sun Feb 27 05:54:28 2000~
+Stamp   951648868
+To      all~
+Subject Exits~
+Text
+Ok guys this isn't AvP or SCMud, please stop doing the exits that go one way.
+i.e You go east to 101, but go west to 108. Please don't fill the mud up with mazes.
+I've been getting alot of bug fixes for exits from you doing that.
+ 
+Proper commands are "<direction (north, east)> dig/link/room <vnum>"
+Dig - Creates a "new" room and links it two-way.
+Link- Creates a two-way exit between existing rooms.
+Room- Creates a one-way exit from one room to another.
+ 
+Do delete a room type: {ynorth delete{x
+I had to put a block for the delete command because one of the builders
+deleted themselves.
+So to delete you have to type delete yes, then delete.
+ 
+Zone 11, 7, and 6? I think had to fix a few exits. Had to delete a few others.
+Thanks,
+-Mendanbar
+~
+Sender  Mendanbar~
+Date    Sun Feb 27 07:03:02 2000~
+Stamp   951652982
+To      sarasvati~
+Subject Ashara~
+Text
+Ok.. i'm REALLY picky. Sorry.
+I split Ashara's 200 vnums into two 100 vnum areas.
+I like to have the zone # (9, 11, 12, whatever) correspond with the first vnum.
+Like area 32's vnum would start with 32**
+Helps me keep track, i don't know about anyone else.
+I moved Iopa's zone down one, and filled in the others so it's ready to rock.
+You don't really need to do anything to it. ;)
+ 
+Later,
+-Mend.
+BTW: When are you on? Just weekends?
+~
+Sender  Sarasvati~
+Date    Tue Feb 29 18:18:48 2000~
+Stamp   951866328
+To      all~
+Subject Phone~
+Text
+
+Phone co had a transformer blow, and so I have
+been off for a while.  They swear the problem,
+will be fixed Wednesday night at lthe leatest.
+
+sorry, no backspace on my friends comp
+
+Sarasvati
+~
+Sender  Eizneckam~
+Date    Sat Apr 15 05:45:31 2000~
+Stamp   955791931
+To      all~
+Subject boo~
+Text
+umm....hi...creating a world from scratch? :)
+well i would play, but, umm....hehehe
+just an FYI: i found you thru a portscan on this server
+~

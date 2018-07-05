@@ -1,0 +1,44 @@
+In compiling this code, you have agreed to the following restrictions on
+any operating version of ROGUE code:
+
+1) following all guidelines in the diku license (contained in the file 
+   license.doc)
+2) following all guidelines in the Merc license (contained in the file
+   license.txt)
+3) following all guidelines in the ROM  license (contained in the file
+   rom.license)
+4) The login message to your mud must contain a notice that it is based
+   on ROGUE 2.1 Alpha, copyright 2000 - 2001 Kenneth Conley. The help files
+   must include a ROGUE entry, readable by all players, and unaltered
+   from the file included with the source code, except as authorized
+   by the ROGUE authors.  The login screen means the screen you see when
+   you first connect, excepting one-line "Do you have color?" messages,
+   and the readable by all players means it must be viewable by both
+   new and old characters on a 24-line terminal with no scrollback.
+   To make it more clear, you cannot put the credits on the top of
+   a 24-line ascii graphic, as this would cause the credits to
+   scroll off.  In any case, final decision on compliance/non-compliance
+   with this requirement is left soley to the judgement of the ROGUE
+   consortium.
+5) Before opening a ROGUE-based mud, you can send email to the author
+   (scmud@mad.scientist.com), so that I can keep track of sites for
+   future code releases.
+6) As a coder, you have full rights to release your
+   own derivatives of the ROGUE code, provided they follow the restrictions of
+   this license, contain all appropriate README and credits files, and are
+   properly labelled as being derivatives of the ROGUE 2.1 code (just as ROGUE
+   is itself a derivative of Gamma 0.0, Merc 2.1 code and ROM 2.4).  
+7) Anyone not wishing to follow terms of the ROGUE license shall be obligated
+   to delete all copies of this code in their possession.  This includes, but
+   is not limited to, failure to display full credits for ROGUE, ROM, Merc, and Diku.
+7) Collaboration with known Diku, Merc, ROM, or ROGUE license violators on any
+   ROGUE code project is strictly forbidden without written permission from
+   the ROGUE consortium (Kenneth Conley).
+
+(In English, this means that Mendanbar is the only one allowed to release
+ROGUE source code, as apposed to ROGUE derived source code, and that you
+cannot call your mud ROGUE even though it uses ROGUE code.  You also aren't
+allowed to deal with code thieves)
+
+If you have any questions about this license, please send email to
+scmud@mad.scientist.com.  

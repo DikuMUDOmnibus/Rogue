@@ -1,0 +1,1016 @@
+#AREADATA
+Name City of Ashara~
+Builders Sarasvati~
+VNUMs 900 999
+Credits City of Ashara~
+Security 9
+End
+
+
+
+#MOBILES
+#900
+priestess high~
+the High Priestess~
+A woman of the cloth tends the altar, while not aiding those who seek her out.
+~
+This lovely elven woman exudes an aura of peace and grace as she serenely
+sees to her duties here in the temple.  She accepts all who worship the
+gods, despite their allegiances to other sects or powers.  She understands
+that there is no one true way.  
+~
+elf~
+ABac DEFJW 0 0
+120 0 1d1+9999 1d1+9999 1d1+1 divine
+0 0 0 0
+0 ABCD 0 0
+stand stand female 999
+AHMV ABCDEFGHIJK medium unknown
+F res B
+F vul Z
+#908
+hired guard~
+the guard~
+The merchant's hired guard rests here in a chair.
+~
+Hired by the local merchant's guild to keep this place safe at night,
+this man intends to do his job well.  
+~
+human~
+ABG DEF 0 0
+50 0 1d1+999 1d1+999 1d1+15 punch
+0 0 0 0
+0 0 0 0
+sit stand male 100
+AHMV ABCDEFGHIJK medium unknown
+M GRALL 900 100~
+#0
+
+
+
+#OBJECTS
+#900
+coffers church~
+the church coffers~
+The coffers of the church are open, as always.~
+marble~
+container GY P
+10000 0 0 200 50
+0 0 0 P
+#901
+alter temple white marble~
+the white marble altar~
+The altar is the main focus of attention in this chamber.~
+marble~
+treasure AG P
+0 0 0 0 0
+0 9999 0 P
+#902
+grey cloth linen robes~
+flowing grey robes~
+A pile of soft grey linen lies here.~
+linen~
+armor G AD
+C C C AC 0
+1 20 1000 P
+#903
+signpost post~
+a signpost~
+A signpost stands in the center of the plaza.~
+wood~
+map 0 P
+0 0 0 0 0
+0 999 0 P
+E
+signpost~
+The signpost reads:
+
+{x  East:  Garentar Road (to the City Gates)
+{x  West:  Garentar Road (to the Outdoor Market)
+{x  North: Temple of Ashara
+{x  South: Kareth Lane
+~
+E
+post~
+The signpost reads:
+ 
+{x  East:  Garentar Road (to the City Gates)
+{x  West:  Garentar Road (to the Outdoor Market)
+{x  North: Temple of Ashara
+{x  South: Kareth Lane
+~
+#999
+anklet crystal bells~
+a {ws{xi{wl{xv{we{xr {wc{xh{wa{xi{wn{x with {Wc{wrystal {Wb{wells{x~
+Sarasvati's anklet lies here.~
+crystal~
+armor 0 AV
+BEF BEF BEF BEF 0
+109 0 0 P
+#0
+
+
+
+#ROOMS
+#900
+{WTerandor Plaza{x~
+The terraced steps of the temple lead up a hill to the north, culminating
+at the great golden doors of the white marble building on the hill.  The
+square itself spreads out in all other directions, and is a plaza of giant
+grey ceramic tiles which click ever so slightly underfoot.  
+~
+0 0 1
+D1
+~
+~
+0 0 908
+D2
+~
+~
+0 0 911
+D3
+~
+~
+0 0 905
+D4
+~
+~
+0 0 901
+S
+#901
+{WTemple Hill{x~
+This gently sloping hill provides a lovely view of the surrounding,
+slightly lower, city of Ashara.  The streets can be seen as they spread out
+to the south, west, and east, in a graceful, tree-like pattern.  The city
+wall which surrounds the town has no gates, save one to the far east, that
+can be seen from here.  Turning to the north, the regal Temple of Ashara
+sits like a monarch on the crest of the hill, looking out over the city.  
+~
+0 0 11
+D0
+The temple sits to the north, with wide double doors of gold, which are
+always open.  
+~
+~
+0 0 902
+D5
+The image of the city's pattern becomes lost as you move further down the
+hill and enter its maze of streets.  
+~
+~
+0 0 900
+S
+#902
+{WInside the Temple of Ashara{x~
+The white marble of the church is flawless, and extends from not only the
+floor and the strong, proud walls, but to the vaulted and domed ceiling high
+overhead.  A system of columns are evenly spaced about the chamber,
+supporting the massive white ceiling.  
+~
+0 263176 11
+D1
+Craning your neck around the door to the east offers a glimpse of the
+temple altar itself.  
+~
+~
+0 0 904
+D2
+The narrow slope of the hill leads down into the main plaza of the city
+just past the great doors to the south.  
+~
+~
+0 0 901
+D3
+Looking west, you see the coffers of the church, which are always open to
+those in need.  
+~
+~
+0 0 903
+S
+#903
+{WThe Coffers of the Temple{x~
+This handsomely decorated room stands as a monument to the power and
+glory of the church.  Tapestried walls of white marble reflect the light
+back, seeming almost to intensify the rays with their mystery.  The coffers
+of the church lie in the center of the circular room, available for all to
+take and give as needed.  
+~
+0 263176 11
+D1
+To the east, the main chamber of this temple can be seen.
+~
+~
+0 0 902
+S
+#904
+{WBefore The Altar{x~
+The altar of the temple stands not against any of the curved walls, but
+is instead in the very center of this circular, domed chamber.  Clergy and
+laymen alike, some in the clothing of far-off lands, wander the stone pews
+which seem to have been built directly out of the white marble floor itself.
+~
+0 263176 11
+D3
+To the west, the main chamber of the temple can be seen.
+~
+~
+0 0 902
+S
+#905
+{WGarentar Road{x~
+The sounds of the city are strong here, during daylight hours at any
+rate.  By night, this area is little traveled by most citizens of Ashara,
+though the occasional page hurries by on some late errand by their master. 
+The wide plaza at the bottom of the temple hill can be seen to the east,
+while the road continues to the west.  
+~
+0 0 1
+D1
+The tiled Terandor Plaza is just to the east, near the bottom of a large hill.
+~
+~
+0 0 900
+D3
+Garentar Road continues to the west from here.
+~
+~
+0 0 906
+S
+#906
+{WGarentar Road{x~
+This small street is simply pack dirt underfoot, and meets the towering
+city wall to the north and west.  The wall is made of giant blocks of grey
+stone, stacked higher and higher till no man could easily scale the walls. 
+Even the sounds of the surrounding wilds cannot be heard from here.  
+~
+0 0 1
+D1
+The road turns to the east here.
+~
+~
+0 0 905
+D2
+The road turns to the south here.
+~
+~
+0 0 907
+S
+#907
+{WGarentar Road: Near the Market{x~
+The dirt road here leading to the north changes here, into a large
+expanse of grassy field to the south.  During the day, the sounds of the
+market fill your ears, and the many colors swirling about dazzle the eye as
+well.  At night, the place is locked tight, and under heavy guard.  
+~
+0 0 1
+D0
+~
+~
+0 0 906
+D2
+~
+~
+0 0 949
+S
+#908
+Un-Named Street *1*~
+~
+0 0 1
+D1
+~
+~
+0 0 909
+D3
+~
+~
+0 0 900
+S
+#909
+Un-Named Street *1*~
+~
+0 0 1
+D2
+~
+~
+0 0 910
+D3
+~
+~
+0 0 908
+S
+#910
+Un-Named Street *1*~
+~
+0 0 1
+D0
+~
+~
+0 0 909
+D1
+~
+~
+0 0 945
+S
+#911
+Main-Street Type~
+~
+0 0 1
+D0
+~
+~
+0 0 900
+D2
+~
+~
+0 0 912
+S
+#912
+Main-Street Type~
+~
+0 0 1
+D0
+~
+~
+0 0 911
+D2
+~
+~
+0 0 913
+S
+#913
+Main-Street Type~
+loud shop to the west, another shop to the east
+~
+0 0 1
+D0
+~
+~
+0 0 912
+D1
+~
+~
+0 0 915
+D2
+~
+~
+0 0 916
+D3
+~
+~
+0 0 914
+S
+#914
+{WThe Forge{x~
+doesn't make sense that a forge would be in market field, so its here.
+maybe a rep. from this shop could be in the field, selling limited stuff
+~
+0 262152 11
+D1
+~
+~
+0 0 913
+S
+#915
+{WThe Glassbow{x~
+glass shop... glasses, mirrors, etc.
+anything with glass as its basic component
+~
+0 262152 11
+D3
+~
+~
+0 0 913
+S
+#916
+Main-Street Type: Intersection~
+west to trainer's ???
+homes to west, as well
+~
+0 0 1
+D0
+~
+~
+0 0 913
+D2
+~
+~
+0 0 920
+D3
+~
+~
+0 0 917
+S
+#917
+Un-Named Street *2*~
+~
+0 0 1
+D1
+~
+~
+0 0 916
+D3
+~
+~
+0 0 918
+S
+#918
+Un-Named Street *2*~
+~
+0 0 1
+D0
+~
+~
+0 0 926
+D1
+~
+~
+0 0 917
+D2
+~
+~
+0 0 927
+D3
+~
+~
+1 0 919
+S
+#919
+Inside the ???~
+trainer's
+~
+0 263180 11
+D1
+~
+~
+1 0 918
+S
+#920
+Main-Street Type: Intersection~
+east to prac'ers ???
+homes to east, as well
+~
+0 0 11
+D0
+~
+~
+0 0 916
+D1
+~
+~
+0 0 921
+D2
+~
+~
+0 0 928
+S
+#921
+Un-Named Street *3*~
+~
+0 0 1
+D1
+~
+~
+0 0 922
+D3
+~
+~
+0 0 920
+S
+#922
+Un-Named Street *3*~
+~
+0 0 1
+D0
+~
+~
+0 0 924
+D1
+~
+~
+0 0 923
+D2
+~
+~
+0 0 925
+D3
+~
+~
+0 0 921
+S
+#923
+Inside the ???~
+prac'er
+~
+0 263180 11
+D3
+~
+~
+0 0 922
+S
+#924
+In a Home~
+~
+0 8 11
+D2
+~
+~
+0 0 922
+S
+#925
+In a Home~
+~
+0 8 11
+D0
+~
+~
+0 0 922
+S
+#926
+In a Home~
+~
+0 8 11
+D2
+~
+~
+0 0 918
+S
+#927
+In a Home~
+~
+0 8 11
+D0
+~
+~
+0 0 918
+S
+#928
+Main-Street Type~
+~
+0 0 1
+D0
+~
+~
+0 0 920
+D2
+~
+~
+0 0 929
+S
+#929
+Main-Street Type~
+east to inn
+west to adventurer's supply type place
+~
+0 0 1
+D0
+~
+~
+0 0 928
+D1
+~
+~
+0 0 932
+D2
+~
+~
+0 0 930
+D3
+~
+~
+0 0 931
+S
+#930
+Main-Street Type~
+~
+0 0 1
+D0
+~
+~
+0 0 929
+D2
+~
+~
+0 0 936
+S
+#931
+Adventurer's Needs~
+~
+0 262152 11
+D1
+~
+~
+0 0 929
+S
+#932
+The Ashara Inn~
+rename later
+coatroom/walkway from the cold
+~
+0 8 11
+D1
+~
+~
+0 0 933
+D3
+~
+~
+0 0 929
+S
+#933
+The Ashara Inn~
+inn proper: bar to north, stairs up
+~
+0 8 11
+D0
+~
+~
+0 0 934
+D3
+~
+~
+0 0 932
+D4
+~
+~
+0 0 935
+S
+#934
+By the Bar~
+~
+0 8 11
+D2
+~
+~
+0 0 933
+S
+#935
+Upstairs at the Inn~
+common room for sleeping
+individual rooms off of this or no?
+~
+0 8 11
+D5
+~
+~
+0 0 933
+S
+#936
+Main-Street Type~
+end of street
+east to mage's tower
+west to pet store
+~
+0 0 1
+D0
+~
+~
+0 0 930
+D1
+~
+~
+0 0 941
+D3
+~
+~
+0 0 937
+S
+#937
+Un-Named Street 4~
+~
+0 0 1
+D1
+~
+~
+0 0 936
+D3
+~
+~
+0 0 938
+S
+#938
+Un-Named Street 4~
+north to pet store
+east to main street's end
+~
+0 0 1
+D0
+~
+~
+0 0 939
+D1
+~
+~
+0 0 937
+S
+#939
+Pet Store~
+~
+0 263180 11
+D2
+~
+~
+0 0 938
+S
+#940
+Pet Store Back Room~
+~
+0 820224 11
+S
+#941
+Un-Named Street #4~
+~
+0 0 1
+D1
+~
+~
+0 0 942
+D3
+~
+~
+0 0 936
+S
+#942
+Un-Named Street #4~
+north to mage's tower
+west to main street's end
+~
+0 0 1
+D0
+~
+~
+0 0 943
+D3
+~
+~
+0 0 941
+S
+#943
+Mage's Tower~
+~
+0 8 11
+D2
+~
+~
+0 0 942
+D4
+~
+~
+0 0 944
+S
+#944
+Magi's Lab~
+portal room, enchanter, etc
+~
+0 263176 11
+D5
+~
+~
+0 0 943
+S
+#945
+Road In/Out~
+~
+0 0 1
+D1
+~
+~
+0 0 946
+D3
+~
+~
+0 0 910
+S
+#946
+Road In/Out~
+~
+0 0 11
+D0
+~
+~
+0 0 947
+D3
+~
+~
+0 0 945
+S
+#947
+Road In/Out~
+~
+0 0 11
+D0
+~
+~
+0 0 948
+D2
+~
+~
+0 0 946
+S
+#948
+Entrance to Ashara~
+~
+0 0 11
+D2
+~
+~
+0 0 947
+S
+#949
+{WIn the Market Field{x~
+~
+0 0 2
+D0
+~
+~
+0 0 907
+D1
+~
+~
+0 0 950
+D2
+~
+~
+0 0 956
+S
+#950
+{WIn the Market Field{x~
+~
+0 0 2
+D1
+~
+~
+0 0 951
+D2
+~
+~
+0 0 957
+D3
+~
+~
+0 0 949
+S
+#951
+{WIn the Market Field{x~
+~
+0 0 2
+D2
+~
+~
+0 0 952
+D3
+~
+~
+0 0 950
+S
+#952
+{WIn the Market Field{x~
+~
+0 0 2
+D0
+~
+~
+0 0 951
+D2
+~
+~
+0 0 953
+D3
+~
+~
+0 0 957
+S
+#953
+{WIn the Market Field{x~
+~
+0 0 2
+D0
+~
+~
+0 0 952
+D3
+~
+~
+0 0 954
+S
+#954
+{WIn the Market Field{x~
+~
+0 0 2
+D0
+~
+~
+0 0 957
+D1
+~
+~
+0 0 953
+D3
+~
+~
+0 0 955
+S
+#955
+{WIn the Market Field{x~
+~
+0 0 2
+D0
+~
+~
+0 0 956
+D1
+~
+~
+0 0 954
+S
+#956
+{WIn the Market Field{x~
+~
+0 0 2
+D0
+~
+~
+0 0 949
+D1
+~
+~
+0 0 957
+D2
+~
+~
+0 0 955
+S
+#957
+{WThe Center of Market Field{x~
+~
+0 4 2
+D0
+~
+~
+0 0 950
+D1
+~
+~
+0 0 952
+D2
+~
+~
+0 0 954
+D3
+~
+~
+0 0 956
+S
+#0
+
+
+
+#SPECIALS
+M 908 spec_guard
+S
+
+
+
+#RESETS
+O 0 903 0 900
+O 0 900 0 903
+O 0 901 0 904
+M 0 900 1 904 1
+E 0 902 0 5
+M 0 908 1 907 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#900
+if hour <= 7
+MOB echoat $n {m
+say It's a bit early, still, friend.
+say Why don't you come back when the place is open, eh?
+MOB echoat $n The guard pushes you back toward the north.
+MOB force $n north
+MOB echoat $n {x
+else
+if hour <= 19
+MOB echoat $n {m
+emote nods as he watches you nearing the gate.
+MOB echoat $n {x
+if hour <= 24
+MOB echoat $n {m
+emote shakes his head slightly.
+say Sorry, friend, but we are closed up for the night.
+emote suggests you come back tommorow.
+MOB echoat $n {m
+MOB echoat $n The guard pushes you back toward the north.
+MOB force $n north
+MOB echoat $n {x
+endif
+~
+#0
+
+#$

@@ -1,0 +1,46 @@
+Sender  Sarasvati~
+Date    Fri Feb 25 21:35:58 2000~
+Stamp   951532558
+To      all~
+Subject Sub Issue Stuff~
+Text
+
+Went through and edited the "sub issue" stuff to have a bit more
+personality.  Tried to think of things the average person, leaving their
+home in search of adventure, might start out with.
+
+Sara
+~
+Sender  Mendanbar~
+Date    Sat Mar  4 18:31:30 2000~
+Stamp   952212690
+To      all~
+Subject Staff Holylight~
+Text
+I've changed the format of the holylight roomflags.
+Instead of "{cRoomName [Room 100]{x"
+It is now "{c[ 100] RoomName [room flags] [sector]{x"
+ 
+Little bit more information wierd format. ;)
+~
+Sender  Mendanbar~
+Date    Sat Mar  4 19:32:58 2000~
+Stamp   952216378
+To      all~
+Subject AutoMap~
+Text
+If you have used the automapper, and pueblo you probably noticed it looks funny with
+room images, and all.
+Well i went ahead and reformated the automap entirely.
+Instead of being on top of everything it is now a part of the room name and desc.
+ 
+Note: The mapper has a sophisticated formating routine, x, y all that.
+So to keep everything formated it stays within a set number of characters (letters).
+If you have a long room name like: {GM{ye{Gn{yd{Ga{yn{Gb{ya{Gr{y'{Gs {yS{Ga{yn{Gc{yt{Gu{ya{Gr{yy{x
+It counts the {G{{G{x's as characters and returns a line if it's too long.
+For automap users this could look funky so try not to do the really long strings.
+I'll work on extracting the color codes later but right now i'm not sure how i'll do it.
+ 
+-Mend
+P.S. AutoMap is for players only, staff holylight functions don't show up.
+~

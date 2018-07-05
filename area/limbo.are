@@ -1,0 +1,284 @@
+#AREADATA
+Name Limbo (NO ALTER)~
+Builders Mendanbar Unlinked~
+VNUMs 1 99
+Credits Diku~
+Security 9
+End
+
+
+
+#MOBILES
+#1
+immortal secretary~
+the immortal secretary~
+The immortal's secretary is here, wearing a very short skirt.
+~
+~
+elf~
+ABJKabc J 0 0
+101 0 10d10+100 0d0+0 0d0+0 claw
+1 1 1 1
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+F res B
+F vul Z
+#2
+mob~
+a mob~
+a mob in tight red pants
+~
+~
+human~
+A 0 0 0
+5000 0 1d1+0 0d0+0 0d0+0 none
+10 10 10 10
+0 0 0 0
+stand stand none 100
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+
+
+#OBJECTS
+#1
+coin silver gcash~
+a silver coin~
+One miserable silver coin.~
+silver~
+money 0 A
+A 0 0 0 0
+0 10 0 P
+#2
+coin gold gcash~
+a gold coin~
+One valuable gold coin.~
+gold~
+money 0 A
+0 A 0 0 0
+0 10 0 P
+#3
+coins gold gcash~
+%d gold coins~
+A pile of gold coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#4
+coins silver gcash~
+%d silver coins~
+A pile of silver coins.~
+silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#5
+coins silver gold gcash~
+%d silver coins and %d gold coins~
+A pile of coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#10
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+npc_corpse 0 A
+0 0 0 A 0
+0 1000 0 D
+#11
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+pc_corpse 0 A
+0 0 0 A 0
+0 1000 0 D
+#12
+head~
+the head of %s~
+The severed head of %s is lying here.~
+meat~
+trash 0 A
+0 0 0 0 0
+0 50 0 D
+#13
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+meat~
+food 0 A
+E E 0 0 0
+0 20 0 D
+#14
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+meat~
+food 0 A
+CE CE 0 0 0
+0 50 0 D
+#15
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+meat~
+food 0 A
+CE CE 0 0 0
+0 50 0 D
+#16
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+meat~
+food 0 A
+AC AC 0 A 0
+0 20 0 D
+#17
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+meat~
+food 0 A
+BD BD 0 0 0
+0 20 0 D
+#18
+rose~
+a red rose~
+A red rose is lying on the ground.~
+oldstyle~
+treasure 0 AE
+BC 0 0 0 0
+0 80 0 P
+E
+rose~
+It's a beautiful red rose, with a soft and romantic fragrance.
+~
+#19
+pit~
+a donation pit~
+A donation pit stands here.~
+unknown~
+container 0 0
+0 0 0 1000 5
+0 0 0 P
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.~
+food~
+food 0 A
+D D 0 0 0
+0 10 0 P
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+light A A
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 0 0 P
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+water~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#23
+disc disk floating black~
+a floating disc~
+A floating black disc hangs in the air.~
+energy~
+container GMPUYZ AQ
+0 E 0 0 0
+0 0 0 P
+#25
+gate portal~
+a shimmering gate~
+A shimmering black gate rises from the ground, leading to parts unknown.~
+shadow~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#28
+stuff~
+a piece of stuff~
+Some stuff is here~
+unknown~
+weapon R AV
+exotic 0 0 none 0
+0 0 50 P
+#29
+gauntlets power~
+the gauntlets of power~
+you shouldn't see this~
+wood~
+weapon GY AN
+dagger 240 5 punch ABCDEGH
+101 1 1 P
+#30
+dummy object~
+a dummy object~
+Dummy object si used for loading non-existent objects~
+~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 1052 1
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 12 1
+S
+#3
+Mendanbar's Sanctuary~
+Nothing Important here..  Just so you know.  
+~
+0 1036 11
+I rog.gif~
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

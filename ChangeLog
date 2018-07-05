@@ -1,0 +1,18 @@
+Release history:
+
+Version 1.0 release: January 21, 2000 (Initial public release)
+Version 2.0 release: Febuary 13, 2000 (Alpha Release)
+Version 2.1 release: May      7, 2000 (Official Public Release)
+
+Release Notes:
+
+Version 1.0- Initial Release.
+
+Version 2.0- Skiped the 1.1, 1.2, etc and went straight to version 2.
+		this version sports a ton of features half of which I
+		can't recall. Beta release was just for kicks.
+
+    2/10/00- Upgraded compiler to GCC 2.95, this shouldn't affect you
+		if you have an older version, but don't quote me.
+
+Version 2.1- More bug fixes, and website done!
